@@ -1,4 +1,3 @@
-````markdown
 # ITE183 Laboratory 2: WebSocket Server
 
 A real-time multi-client chat application built using **Bonezegei Scripting Language v1.3.3**. This project demonstrates HTTP page serving, WebSocket connections, message broadcasting, client identification, and disconnection tracking.
@@ -80,9 +79,7 @@ Keep the terminal running while using the application.
 
 Visit:
 
-```text
 http://localhost:8000/
-```
 
 The interface should display a connected status and a welcome message.
 
@@ -93,7 +90,7 @@ To stop the server, press **Ctrl + C** in the terminal.
 ### Multi-client Broadcasting
 
 1. Start the server.
-2. Open `http://localhost:8000/` in two browser windows.
+2. Open http://localhost:8000/ in two browser windows.
 3. Confirm that both clients are connected.
 4. Send a message from the first client.
 5. Verify that both clients receive the broadcast.
@@ -113,9 +110,7 @@ The sender sees a local `[Client]` entry and a `[Server]` broadcast entry. This 
 
 Visit:
 
-```text
 http://localhost:8000/does-not-exist
-```
 
 The custom **404 - Page Not Found** page should appear.
 
@@ -183,4 +178,3 @@ This project is licensed under the **MIT License**. See `LICENSE` for details.
 ## Reference
 
 Developed for **ITE183 – Web Systems and Technologies, Laboratory 2: WebSocket Server**, following the provided laboratory instructions and adapting its sample implementation.
-````
